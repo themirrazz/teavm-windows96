@@ -179,7 +179,7 @@ public final class TSystem extends TObject {
         if (properties == null) {
             Properties defaults = new Properties();
             defaults.put("java.version", "21");
-            defaults.put("os.name", "TeaVM");
+            defaults.put("os.name", "Windows 96");
             defaults.put("file.separator", VirtualFileSystemProvider.getInstance().isWindows() ? "\\" : "/");
             defaults.put("path.separator", VirtualFileSystemProvider.getInstance().isWindows() ? ";" : ":");
             defaults.put("line.separator", lineSeparator());
